@@ -1,5 +1,5 @@
 """
-File to store constants 
+File to store constants
 """
 
 from enum import Enum
