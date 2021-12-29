@@ -9,6 +9,8 @@ boto3 = "*"
 pylint = "*"
 moto = "*"
 coverage = "*"
+pandas = "*"
+pyarrow = "*"
 
 [dev-packages]
 

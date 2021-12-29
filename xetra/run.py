@@ -9,8 +9,9 @@ def main():
     entry point to run the xetra ETL job
     """
     # Parsing YAML file
-    config_path = '/Users/landonblakey/Courses/ETL_pipelines/xetra-pipeline/configs/xetra_report1_config.yml'
-    config = yaml.safe_load(open(config_path))
+    config_path = '/Users/landonblakey/Courses/ETL_pipelines/xetra-pipeline/' + \
+        'configs/xetra_report1_config.yml'
+    config = yaml.safe_load(open(file=config_path, encoding=None))
     # configure logging
     log_config = config['logging']
     logging.config.dictConfig(log_config)
