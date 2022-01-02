@@ -33,7 +33,6 @@ class XetraSourceConfig(NamedTuple):
     src_col_date: str
     src_col_isin: str
     src_col_time: str
-    src_col_time: str
     src_col_start_price: str
     src_col_min_price: str
     src_col_max_price: str

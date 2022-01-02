@@ -11,6 +11,7 @@ moto = "*"
 coverage = "*"
 pandas = "*"
 pyarrow = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
