@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Images and dat
+*.png
+*.dat
+
+# minikube instance
+minikube-darwin-amd64

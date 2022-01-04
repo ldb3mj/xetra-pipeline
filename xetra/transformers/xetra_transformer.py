@@ -98,7 +98,6 @@ class XetraETL():
         self.meta_update_list = [date for date in self.extract_date_list\
             if date >= self.extract_date]
 
-    @profile
     def extract(self):
         """
         Read the source data and concatenate them into a Pandas DataFrame
@@ -116,7 +115,6 @@ class XetraETL():
                 for file in files], ignore_index=True)
             self._logger.info('Extracting Xetra source files finished.')
         return data_frame
-
 
     def transform_report1(self, data_frame: pd.DataFrame):
         """
