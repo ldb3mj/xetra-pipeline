@@ -98,7 +98,7 @@ class XetraETL():
         self.meta_update_list = [date for date in self.extract_date_list\
             if date >= self.extract_date]
 
-
+    @profile
     def extract(self):
         """
         Read the source data and concatenate them into a Pandas DataFrame

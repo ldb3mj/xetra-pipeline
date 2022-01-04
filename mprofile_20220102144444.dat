@@ -1,0 +1,5 @@
+CMDLINE /Users/landonblakey/.local/share/virtualenvs/xetra-pipeline-L4TlmUQD/bin/python run.py /Users/landonblakey/Courses/ETL_pipelines/xetra-pipeline/configs/xetra_report1_config.yml
+MEM 0.039062 1641152684.4975
+MEM 15.957031 1641152684.6027
+MEM 25.066406 1641152684.7030
+MEM 36.949219 1641152684.8072
